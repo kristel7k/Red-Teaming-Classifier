@@ -10,3 +10,10 @@ You can now activate the virtual environment with:
 
 - Windows: ```venv\Scripts\activate```
 - MacOS: ```source venv/bin/activate```
+
+## Generating Features (TF-IDF + N-gram)
+
+Once preprocessing is complete and `preprocessed_data.csv` is available in the `data/` directory, run the feature engineering script:
+
+```bash
+python src/feature_engineering.py
